@@ -1,0 +1,47 @@
+html {
+    background: #1f1d18;
+    background-attachment: fixed;
+}
+body {
+    font-family: helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: #e6dab9;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo, .tag {
+    text-align: center;
+}
+.tag {
+    font-size: 1.5em;
+    text-transform: lowercase;
+    word-spacing: 2px;
+}
+.tag:before, .tag:after {
+    letter-spacing: -2px;
+    content:'------------';
+}
+.tag:before {
+    margin-right: 20px;
+}
+.tag:after {
+    margin-left: 20px;
+}
+.logo img:first-child {
+    width: 360px;
+}
+.logo img:last-child {
+    width: 470px;
+}
+.description {
+    background: #28241d;
+}
+.description p {
+    width: 450px;
+    margin: 0 auto;
+    line-height: 20px;
+    word-spacing: 1px;
+    padding: 20px;
+}
